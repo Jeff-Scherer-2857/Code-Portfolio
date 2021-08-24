@@ -1,0 +1,61 @@
+/* Request Access Page Style*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+html {
+	height: calc(100% - 130px);
+}
+
+body {
+	background-color: rgb(35,35,40);
+	margin: 1.5%;
+    height: calc(100% - 130px);
+}
+
+form {
+	background-color: rgb(91, 136, 233);
+    margin: 10px auto 30px auto;
+    padding: 20px 20px 10px 20px;
+	width: 400px;
+	border-radius: 25px;
+
+}
+
+.myform {
+    text-align: left;
+    font-family: sans-serif;
+	font-size: 16px;
+}
+
+.text_label {
+	color: rgb(200,200,200);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+}
+
+.text_input {
+	width: 150px;
+	text-align: left;
+	padding: 0px 0px 0px 10px;
+}
+
+#header {
+    text-align: center;
+	color: rgb(200,200,200);
+	margin: 0px auto 0px auto;
+	padding-bottom: 10px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 32px;
+}
+
+#submit {float: center;}
+#login {float: center;}
+#otherdetails {width: 380px;}
+#copyright {	
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 12px;
+	color: rgb(200,200,200);
+	text-align: center;
+	padding-bottom: 50px;;
+}

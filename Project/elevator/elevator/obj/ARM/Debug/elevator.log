@@ -1,0 +1,11 @@
+﻿  Validating sources
+  Copying sources remotely to '68.183.197.89'
+  Validating architecture
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(198,5): warning : The remote systems used in deploy have incompatible platform architectures ('ARM', 'x64'). If you are cross-compiling you can disregard this warning.
+  Validating architecture
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(188,5): warning : Current project architecture 'ARM' is incompatible with the remote system architecture 'x64' ('x64'). Please switch the project architecture to 'x64' in Configuration Manager.
+  Starting remote build
+  Compiling sources:
+  main.cpp
+  Linking objects
+  elevator.vcxproj -> C:\Users\Matt\VisualStudio\Projects\elevator\elevator\bin\ARM\Debug\elevator.out

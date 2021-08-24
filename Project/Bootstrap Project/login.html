@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/login_style.css">
+        <title>Forms: Login Page</title>
+        <meta name="description" content="This is the login page for our project"/>
+        <meta name="robots" content="noindex nofollow" />
+        <meta http-eqiv="author" content="Victor P" />
+        <meta http-equiv="pragma" content="no-cache" />
+    </head>
+    <body>
+		<script>
+			function checkUserInput(val) {
+				if (val.length <= 7) {
+					alert("Username must be 7 or more characters");
+					document.getElementById("user").value = "";
+				}
+				
+			}
+			
+			function checkPassInput(val) {
+				if (val.length <= 7) {
+					alert("Password must be 7 or more characters");
+					document.getElementById("pass").value = "";
+				}
+				
+			}
+			
+			function checkInput() {
+				if (document.getElementById("user").value.length <= 7 || document.getElementById("pass").value.length <= 7) {
+					alert("Username and password must both be 7 or more characters");
+				}
+			}
+		</script>	
+        <form action="php/login.php" method="post" id="login">
+            <header>
+				<h1 class="headertitle">Project IV Login</h1>
+			</header>
+            
+            <div>
+                <label for="user" class="text_label">Username:</label> <!--The "for='user'" targets the entire box plus the "username" text, making it cleaner-->
+                <input id="user" type="text" class="text-input" name="username" onchange="checkUserInput(this.value)" required/>
+            </div>
+
+            <div>
+                <label for="pass" class="text_label">Password:</label>
+                <input id="pass" type="password" class="text-input" name="password" onchange="checkPassInput(this.value)" required/>
+            </div>
+           
+            <div><input type="submit" value="Log in" id="submit" onchange="checkInput()" /></div> <!--Login button-->
+            <!--<input type="image" src="Images/login.PNG" />--><!--this line puts a larger alt image beside the original button-->
+            <div class="links">
+                <h4><a href="request_access.html">Request Access</a></h4>
+                <h4><a href="index.html">Psst, hey kid. Want some candy? (Go to index.html)</a></h4>
+                <h4><a href="about.html">Psst, hey kid. Want some Yu-Gi-Oh cards? (Go to about.html)</a></h4>
+            </div>
+            
+        </form>
+        <br />
+        <p id="copyright"><i>© Victor Palczewski</i></p>
+
+        <audio id="player" controls><source src="images/meme.mp3" type="audio/mp3"></audio>
+    </body>
+</html>

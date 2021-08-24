@@ -1,0 +1,1 @@
+g++ -o "/home/hengy/projects/elevator/bin/x64/Debug/elevator.out" -Wl,--no-undefined -Wl,-L/usr/include/mysql/ -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/hengy/projects/elevator/obj/x64/Debug/fossa.o /home/hengy/projects/elevator/obj/x64/Debug/main.o -lmysqlclient

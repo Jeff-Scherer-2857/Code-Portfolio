@@ -1,0 +1,305 @@
+/* Request Access Page Style*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+html {
+	height: calc(100% - 140px);
+}
+
+body {
+	width: 98%;
+	background-color: rgb(35,35,40);
+	height: calc(100% - 130px);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 14px;
+}
+
+header, section, footer, aside, nav, article, figure { display: block; }
+
+.navbttn {
+	float: left;
+	width: 175px;
+	padding: 10px;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+}
+
+form {
+	background-color: rgb(91, 136, 233);
+    margin: 120px auto 30px auto;
+    padding: 40px;
+	width: 500px;
+	border-radius: 25px;
+}
+
+.myform {
+    text-align: left;
+    font-family: sans-serif;
+	font-size: 16px;
+}
+
+.text_label {
+	color: rgb(200,200,200);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+}
+
+.text_input {
+	width: 150px;
+	text-align: left;
+	padding: 0px 0px 0px 10px;
+}
+
+.links {
+	margin-left: calc(50% - 75px);
+	margin-top: 20px;	
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+.links > a {
+	width: 150px;
+	margin-top: 16px;
+	display: block;
+	color: rgb(40,40,40);
+	font-size: 16px;
+	font-weight: 900;
+}
+
+#radio {
+	float: left;
+	width: 170px;
+	padding-left: 70px;
+}
+
+#radios {
+	margin: 20px 0px 20px 0px;
+	height: 30px;
+}
+
+#checks {
+	display: block;
+}
+
+#about {
+	margin-top: 30px;
+}
+
+#inputlabel {
+	display: inline-block;
+	width: 50%;
+}
+
+.textcell {
+	float: left;
+	width: calc(50% - 11px);
+	padding-left: 10px;
+}
+
+#firstname, #lastname, #username, #password {
+	width: 70%;
+	display: inline-block;
+	padding: 4px 8px 4px 8px;
+	margin-bottom: 10px;
+	margin-right: 20%;
+}
+
+#formtitle {
+    text-align: center;
+	color: rgb(255,255,255);
+	margin: 0px auto 30px auto;
+	padding-bottom: 10px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 32px;
+}
+
+#submit {float: center;}
+
+#login {float: center;}
+
+#detailsbttn {
+	width: 200px;
+	height: 56px;
+	margin-top:16px;
+	margin-bottom:16px;
+	margin-left: 148px;
+	background-color: white;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+#detailsbttn:hover {
+	background: rgb(255,165,38);
+	cursor: pointer;
+}
+
+#otherdetails {
+	float: left;
+	width: 100%;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 12px;
+}
+
+#charlabel {
+	float: left;
+	margin-top: 6px;
+}
+
+#charNum {
+	resize: none; 
+	margin-left: 5px; 
+	margin-top: 4px;
+	text-align: right;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Lexend Tera', sans-serif;
+	padding: 20px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+	display:inline-block;
+	width: 99%;
+	text-align: center;
+	font-family: 'Lexend Tera', sans-serif;
+	padding: 20px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+	margin-top: 50px;
+}
+
+/*a hyperlink. do not need to add a class to the <a><a/> */
+a:link{
+	color:white;
+	text-decoration: none;
+}
+
+/*a visited hyperlink. do not need to add a class to the <a><a/> */
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+#accountctrlcontainer {
+	width: 90%;
+	margin: 30px auto 20px auto;
+	max-height: 800px;
+	min-height: 300px;
+	color: white;
+	padding: 8px;
+	overflow-x: scroll;
+}
+
+#numrec {
+	font-family: 'Lexend Tera', sans-serif;
+	padding: 20px;
+	font-size: 24px;
+	color: rgb(150,150,220);
+}
+
+.record {
+	width: 2050px;
+	height: 60px;
+	padding-top: 22px;
+	padding-left: 16px;
+	color: rgb(200,200,200);
+}
+
+.recordtitles {
+	width: 2050px;
+	height: 30px;
+	padding-top: 12px;
+	padding-left: 16px;
+	font-weight: 900;
+	color: white;
+}
+
+.lightrecord {
+	background-color: rgb(50,50,65);
+}
+
+.idcol {
+	float: left;
+	width: 36px;
+}
+
+.usercol {
+	float: left;
+	width: 160px;
+}
+
+.namecol {
+	float: left;
+	width: 160px;
+}
+
+.otherinfocol {
+	float: left;
+	width: 550px;
+	vertical-align: text-top;
+}
+
+.datetimecol {
+	float: left;
+	width: 140px;
+}
+
+.stud_faccol {
+	float: left;
+	width: 200px;
+}
+
+.optionscol {
+	float: left;
+	width: 220px;
+	overflow-x: hidden;
+}
+
+.activecol {
+	float: left;
+	width: 140px;
+}
+
+.admincol {
+	float: left;
+	width: 140px;
+}
+
+.checkbox {
+	float: left;
+	padding-left: 20px;
+	width: 120px;
+}
+
+/*#### Scrollbar ####*/
+
+/* height */
+::-webkit-scrollbar {
+  height: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(45,45,60);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(30,150,255);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255,165,38);
+}

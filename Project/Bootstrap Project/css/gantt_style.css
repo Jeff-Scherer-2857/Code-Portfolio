@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+html {
+	height: calc(100% - 130px);
+	overflow-x: hidden;
+}
+
+body {
+	background-color: rgb(35,35,40);
+	margin: 1.5%;
+	height: calc(100% - 130px);
+}
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+.headertitle {
+	color: rgb(200,200,200);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 48px;
+}
+
+main {
+	display: inline-block;
+	float: left;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	min-width: 40%;
+	max-width:84%;
+	min-height: 800px;
+	padding: 20px;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+}
+
+.smallmain {
+	min-height: 660px;
+}
+
+.legend {
+	display: inline-block;
+	width: 700px;
+	margin-left: 120px;
+	margin-top: 50px;
+	padding: 20px;
+	color: rgb(150,200,230);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 24px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	border-radius: 20px;
+}
+
+.legendentry {
+	float: left;
+	width: 44%;
+	padding: 12px;
+	color: rgb(255,165,38);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+}
+
+.legendtitle {
+	float: left;
+	width: 100%;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	color: rgb(150,200,230);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 24px;
+}
+	
+.banner {
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	color: rgb(30,150,255);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 48px;
+	padding-top: 40px;
+}
+
+.row {
+	height: 50px;
+	color: rgb(120,120,120);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+}
+
+.col1 {
+	display: inline-block;
+	width: 560px;
+	height: 100%;
+	padding-top: 12px;
+	padding-left: 60px;
+}
+
+.weekcol {
+	display: inline-block;
+	width: 120px;
+	height: 100%;
+	text-align: center;
+	padding-top: 12px;
+	color: rgb(255,165,38);
+}
+
+.headerrow {
+	color: rgb(230,230,230);
+	font-family: 'Lexend Tera', sans-serif;
+	font-weight: 900;
+}
+
+.headerrow .weekcol {
+	color: rgb(210,210,210) !important;
+}
+
+.topicrow {
+	color: rgb(150,200,230);
+	font-family: 'Lexend Tera', sans-serif;
+	font-weight: 900;
+}
+
+.finalrow {
+	color: rgb(200,60,60);
+	font-family: 'Lexend Tera', sans-serif;
+	font-weight: 900;
+}
+
+.col1 .finalrow {
+	padding-top: 12px;
+	margin-bottom: 24px;
+}
+
+.extrarowpadding {
+	padding-bottom: 50px;
+}
+
+nav {
+	display:inline-block;
+	padding-top: 50px;
+	float: left;
+	width: 200px;
+	height: 300%;
+}
+
+.navbttn {
+	display: inline-block;
+	width: 180px;
+	padding: 10px;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.navbttn:hover {
+	cursor: pointer;
+	background-color: rgb(20,20,20);
+	color: rgb(255,255,255);
+}
+
+.aboutimg {
+	display: block;
+	border: 1px solid #ddd;
+	margin: 20px auto auto auto;
+	padding: 5px;
+	border-radius: 8px;
+	max-height: 200px;
+}
+
+footer {
+
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  padding: 20px;
+  font-size: 12px;
+  color: rgb(120,120,120);
+	display:inline-block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lexend Tera', sans-serif;
+	padding: 20px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+}
+
+.abouttext {
+	text-align: justify;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 12px;
+	color: rgb(210,210,210);
+	padding: 0px 30px;
+}
+
+/*a hyperlink. do not need to add a class to the <a><a/> */
+.legend a:link {
+	color: rgb(255,165,38);
+	text-decoration: none;
+}
+
+/*a visited hyperlink. do not need to add a class to the <a><a/> */
+.legend a:visited {
+	color: rgb(255,165,38);
+	text-decoration: none;
+}
+
+.legend a:hover {
+	color: rgb(30,150,255);
+	text-decoration: none;
+}
+
+/*#### Scrollbar ####*/
+
+/* height */
+::-webkit-scrollbar {
+  height: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(45,45,60);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(30,150,255);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255,165,38);
+}

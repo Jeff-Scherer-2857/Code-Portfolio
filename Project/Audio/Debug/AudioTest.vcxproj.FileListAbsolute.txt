@@ -1,0 +1,2 @@
+C:\Users\jeffs\Desktop\Test\AudioTest\Debug\AudioTest.exe
+C:\Users\jeffs\Desktop\Test\AudioTest\Debug\AudioTest.pdb

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/request_style.css">
+        <title>Forms: Request Access</title>
+        <meta name="description" content="This is the request access form"/>
+        <meta name="robots" content="noindex nofollow" />
+        <meta http-eqiv="author" content="Victor P" />
+        <meta http-equiv="pragma" content="no-cache" />
+    </head>
+    <body>
+        
+        <form action="php/request_acc.php" method="post" id="access">
+            <div class="myform">
+                <h1 id="header">Request Access</h1>
+                <p>First Name: <input type="text" name="firstname" /> </p>
+                <p>Last Name: <input type="text" name="lastname" /> </p>
+                
+                <input type="radio" name="fac_or_student" value="faculty" /> Faculty
+                <input type="radio" name="fac_or_student" value="student" /> Student
+                
+                <p>Check all that apply:</p>
+                <label><input type="checkbox" name="involvement" value="none" /> I have no involvement in the project</label> <br /><!--the label wrap makes it so you can click on the text to select as well-->
+                <label><input type="checkbox" name="involvement" value="instructor" /> I am an instructor in the project</label> <br />
+                <label><input type="checkbox" name="involvement" value="instructor_other" /> I am an instructor in a different project</label> <br />
+                <label><input type="checkbox" name="involvement" value="student" /> I am a student in this project</label> <br />
+                <label><input type="checkbox" name="involvement" value="student_other" /> I am a student in a different project </label> <br />
+                <label><input type="checkbox" name="involvement" value="admin" /> I am a college admin</label> <br />
+                <label><input type="checkbox" name="involvement" value="external" /> I am an external reviewer</label> <br />
+                <label><input type="checkbox" name="involvement" value="jeff" /> My name Jeff</label> <br />
+                
+
+                <p>Tell me about yourself</p>
+                <textarea id="otherdetails" rows="5">Other details...</textarea><br />
+                <input type="submit" value="submit request" />
+                <p><a href="index.html">Psst, hey kid. Want some candy? (Go to index.html)</a></p>
+                <p><a href="about.html">Psst, hey kid. Want some Yu-Gi-Oh cards? (Go to about.html)</a></p>
+            </div>
+        </form>
+        <br />
+        <p id="copyright"><i>©V ictor Palczewski</i></p>
+    </body>
+</html>

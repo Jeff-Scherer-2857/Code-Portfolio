@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+html {
+	height: calc(110% - 130px);
+}
+
+body {
+	background-color: rgb(35,35,40);
+	margin: 1.5%;
+	height: calc(100% - 130px);
+	color: rgb(140,140,140);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 14px;
+}
+
+header, section, footer, aside, nav, article, figure { display: block; }
+
+/* deprecated
+.header {
+	text-align: center;
+	padding: 20px;
+	color: rgb(120,120,120);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 14px;
+}
+*/
+
+header {
+	text-align: center;
+	padding: 20px;
+	color: rgb(120,120,120);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 14px;
+}
+
+.headertitle {
+	color: rgb(200,200,200);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 48px;
+}
+
+.links {
+	margin-left: calc(50% - 200px);
+	margin-right: calc(50% - 200px);
+	padding-bottom: 40px;
+	color: rgb(180,180,180);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 24px;
+}
+
+.links > a {
+	text-align: center;
+	display: block;
+	width: 400px;
+	text-align: center;
+	margin-top: 40px;
+	text-decoration: none;
+}
+
+.links > input {
+	display: block;
+	width: 330px;
+	margin-top: 30px;
+	margin-left: calc(50% - 165px);
+}
+
+/* deprecated
+.navcolumn {
+	display:inline-block;
+	padding-top: 50px;
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+*/
+
+nav {
+	display:inline-block;
+	padding-top: 50px;
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+.controlcolumn {
+	display:inline-block;
+	margin: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	border-radius: 30px;
+	float: left;
+	width: calc(50% - 140px);
+	min-width: 619px; 
+	min-height: 600px;
+}
+
+.controlcolumnleft {
+	display:inline-block;
+	padding-top: 40px;
+	float: left;
+	width: 74%;
+}
+
+.controlcolumnright {
+	padding-top: 18px;
+	float: left;
+	width: 26%;
+	min-width: 90px;
+}
+
+.controlname {
+	height: 100px;
+	padding-left: 50px;
+	padding-top: 24px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 36px;
+	color: rgb(200,200,200);
+}
+
+.controlbttn {
+	margin-top: 23px;
+	height: 100px;
+	width: 100px;
+}
+
+.statuscolumn {
+	margin: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	border-radius: 30px;
+	float: left;
+	width: calc(50% - 140px);
+	min-width: 619px; 
+	min-height: 600px;
+}
+
+.navbttn {
+	display: inline-block;
+	width: 180px;
+	padding: 10px;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.navbttn:hover {
+	cursor: pointer;
+	background-color: rgb(20,20,20);
+	color: rgb(255,255,255);
+}
+
+.controltitle {
+	text-align: center;
+	color: rgb(100,100,100);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 36px;
+}
+
+.statustitle {
+	text-align: center;
+	color: rgb(100,100,100);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 36px;
+}
+
+.statuscolumnleft {
+	float:left;
+	width: 33%;
+	min-width: 60px;
+}
+
+.statusname {
+	height: 100px;
+	padding-top: 100px;
+	text-align: center;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 36px;
+	color: rgb(200,200,200);
+}
+
+.statuscolumncenter {
+	padding-top: 2px;
+	float:left;
+	width: 33%;
+	min-width: 60px;
+}
+
+.statuscolumnright {
+	float:left;
+	width: 33%;
+	min-width: 60px;
+}
+
+.locstatus {
+	padding-left: calc((100% - 63px) / 2);
+	padding-top: 105px;
+}
+
+.callbttn {
+	height: 70px;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	padding-left: calc(50% - 32px);
+}
+
+.aboutimg {
+	display: block;
+	border: 1px solid #ddd;
+	margin: 20px auto auto auto;
+	padding: 5px;
+	border-radius: 8px;
+	max-height: 200px;
+}
+
+.log {
+	margin: 12px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	border-radius: 20px;
+	padding: 10px 20px 20px 25px;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 14px;
+}
+
+.logheader {
+	text-align: center;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 24px;
+}
+
+.logdate {
+	float: left;
+	padding-right: 6px;
+	color: rgb(40,150,200);
+	font-weight: 1000;
+}
+
+/* deprecated
+.footer {
+
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  padding: 20px;
+  font-size: 12px;
+  color: rgb(120,120,120);
+	display:inline-block;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lexend Tera', sans-serif;
+	padding: 20px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+}
+*/
+
+footer {
+  text-align: center;
+  font-family: 'Lexend Tera', sans-serif;
+  padding: 20px;
+  font-size: 12px;
+  color: rgb(120,120,120);
+	display:inline-block;
+	width: 99%;
+	text-align: center;
+	font-family: 'Lexend Tera', sans-serif;
+	padding: 20px;
+	font-size: 12px;
+	color: rgb(120,120,120);
+}
+
+.abouttext {
+	text-align: justify;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 12px;
+	color: rgb(210,210,210);
+	padding: 0px 30px;
+}
+
+/*a hyperlink. do not need to add a class to the <a><a/> */
+a:link{
+	color:lightblue
+}
+
+/*a visited hyperlink. do not need to add a class to the <a><a/> */
+a:visited{
+	color: lightblue;
+}
+
+.controlcolumnvictor {
+	font-size: 14px;
+	text-align: left;
+	color: rgb(210,210,210);
+	font-family: 'Lexend Tera', sans-serif;
+	margin: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	border-radius: 30px;
+	float: left;
+	width: calc(50% - 140px);
+	min-height: 600px;}
+
+.map {
+	display:inline-block;
+	padding-left: 50px;
+	padding-top: 50px;
+	margin-left: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	border-radius: 30px;
+	float: left;
+	width: calc(39%);
+	min-width: 620px;
+}

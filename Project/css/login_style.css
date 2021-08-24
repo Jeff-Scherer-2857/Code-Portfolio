@@ -1,0 +1,116 @@
+/* Login Page Style*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+
+html {
+	height: calc(100% - 130px);
+}
+
+body {
+	background-color: rgb(35,35,40);
+	height: calc(100% - 130px);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+#redmessage {
+	background-color: rgb(117,24,9);
+	width: 100%;
+	padding-top: 6px;
+	padding-bottom: 10px;
+	color: rgb(255,255,255);
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+#loginform {
+	background-color: rgb(14, 114, 196);
+	margin: 50px auto 50px auto;
+	width: 330px;
+	border-radius: 25px;
+}
+
+header {
+	padding-top: 20px;
+}
+
+.headertitle {
+	color: rgb(240,240,240);
+	padding: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 32px;
+}
+
+.text_label {
+	color: rgb(0,31,48);
+	padding: 10px;
+	margin: 0px;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 18px;
+}
+
+.text_input {
+	margin-top: 4px;
+	padding: 6px;
+	width: 80%;
+	text-align: left;
+}
+
+#usernamediv, #passworddiv, #submitdiv, .links {
+	padding: 10px 0px 10px 0px;
+	width: 330px;
+	text-align: center;
+} 
+
+.links {
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 12px;
+}
+
+.links > a {
+	margin: 16px;
+	display: block;
+	width: calc(100% - 32px);
+	color: rgb(40,40,40);
+	font-size: 13px;
+}
+
+#submit {
+	margin-top: 12px;
+	background-color: rgb(255,255,255);
+	float: center;
+	width: 140px;
+	height: 40px;
+	padding: 4px;
+	border-radius: 5px;
+	border: none;
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 900;
+}
+
+#submit:hover {
+	background: rgb(255,165,38);
+	cursor: pointer;
+}
+
+#login {float: center;}
+#copyright {	
+	font-family: 'Lexend Tera', sans-serif;
+	font-size: 14px;
+	color: rgb(200,200,200);
+}
+
+/*a hyperlink. do not need to add a class to the <a><a/> */
+a:link{
+	color:white;
+	text-decoration: none;
+}
+
+/*a visited hyperlink. do not need to add a class to the <a><a/> */
+a:visited{
+	color: white;
+	text-decoration: none;
+}
