@@ -1,0 +1,12 @@
+.\objects\stepper.o: stepper.c
+.\objects\stepper.o: stm32f303xe.h
+.\objects\stepper.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm4.h
+.\objects\stepper.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stepper.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\stepper.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\stepper.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\stepper.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\stepper.o: C:\Keil_v5\ARM\PACK\Keil\STM32F3xx_DFP\2.1.0\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h
+.\objects\stepper.o: SysClock.h
+.\objects\stepper.o: stepper.h
+.\objects\stepper.o: macros.h
